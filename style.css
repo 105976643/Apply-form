@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #00aaff; /* Light blue background for the header */
+    background-color:rgba(245, 245, 247, 0.3); /* Light  background for the header */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,13 +35,14 @@ header {
 /* Navigation Bar Styles */
 .nav-bar {
     display: flex;
-    justify-content: flex-end; /* Align nav items to the right */
+    justify-content: center; /* Align nav items to the right */
+    flex-grow: 1;
 }
 
 .nav-bar ul {
     list-style-type: none; /* Remove list bullets */
     display: flex;
-    gap: 30px; /* Space between navigation items */
+    gap: 60px; /* Space between navigation items */
 }
 
 .nav-bar ul li {
@@ -50,14 +51,14 @@ header {
 
 .nav-bar ul li a {
     text-decoration: none; /* Remove underline */
-    color: white; /* White text color */
+    color: rgb(0, 0, 0); /* black text color */
     font-size: 18px;
     font-weight: 500;
     transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .nav-bar ul li a:hover {
-    color: #f1f1f1; /* Light color on hover */
+    color: #0c0faf; /* dark blue color on hover */
     border-bottom: 2px solid #f1f1f1; /* Add underline effect on hover */
 }
 
